@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:CreatePolicy",
+                "iam:ListPolicies",
+                "iam:ListPolicyVersions",
+                "iam:GetUserPolicy",
+                "iam:ListAttachedUserPolicies",
+                "iam:ListEntitiesForPolicy",
+                "iam:DeleteUserPolicy",
+                "iam:DeletePolicy",
+                "iam:ListUsers",
+                "iam:ListUserPolicies",
+                "iam:TagPolicy"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

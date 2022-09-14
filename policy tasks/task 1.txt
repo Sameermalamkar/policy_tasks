@@ -1,0 +1,32 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListPolicies",
+                "iam:CreateGroup",
+                "iam:GetPolicy",
+                "iam:ListGroupPolicies",
+                "iam:AttachUserPolicy",
+                "iam:ListPoliciesGrantingServiceAccess",
+                "iam:ListUserPolicies",
+                "iam:CreateUser",
+                "iam:TagUser",
+                "iam:GetGroup",
+                "iam:CreateLoginProfile",
+                "iam:GetUserPolicy",
+                "iam:ListUsers",
+                "iam:ListGroups",
+                "iam:GetGroupPolicy",
+                "iam:ListPolicyTags",
+                "iam:GetUser",
+                "iam:GetLoginProfile",
+                "iam:ListUserTags",
+                "iam:GetAccountSummary"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
